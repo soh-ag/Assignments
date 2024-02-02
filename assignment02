@@ -11,3 +11,8 @@ for i in mainList:
         if i == j:
             list2.append(i)
             print(list2)
+
+
+
+
+#Can Not Finish
