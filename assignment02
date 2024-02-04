@@ -1,18 +1,13 @@
 mainList = [1, 5, 6, 5, 1, 2, 3]
 
-list1 = set(mainList)
-list_ls = list(list1)
-# print(type(list_ls))
-
-list2 = []
+unique_list = []
+duplicate_list = []
 
 for i in mainList:
-    for j in list_ls:
-        if i == j:
-            list2.append(i)
-            print(list2)
+    if i not in unique_list:
+        unique_list.append(i)
+    else:
+        duplicate_list.append(i)
 
-
-
-
-#Can Not Finish
+print(unique_list)
+print(duplicate_list)
